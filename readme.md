@@ -1,29 +1,34 @@
 [Git](https://github.com/"Git") SSH key:
 --------
-    一 、设置 Git 的 user name 和 email ：
+    一 、1设置 Git 的 user name 和 email ：
 
->*   $ git config --global user.name "yourname"
->*   $ git config --global user.email "yourname@gmail.com"
+>$ git config --global user.name "yourname"
+>
+>$ git config --global user.email "yourname@gmail.com"
 
     二、生成SSH密钥过程：
 
 1. 查看是否已经有了ssh密钥：
->    cd ~/.ssh
+>cd ~/.ssh
 
         如果没有密钥则不会有此文件夹，有则备份删除
 2. 生成密钥：
 >$ ssh-keygen -t rsa -C “haiyan.xu.vip@gmail.com”
+>
 >按3个回车，密码为空。
+>
+>最后得到了两个文件： id_rsa 和id_rsa.pub
 
         Your identification has been saved in /home/tekkub/.ssh/id_rsa.
         Your public key has been saved in /home/tekkub/.ssh/id_rsa.pub.
         The key fingerprint is:
         ………………
 
-        最后得到了两个文件： id_rsa 和id_rsa.pub
 3. 在github上添加ssh密钥，这要添加的是“`id_rsa.pub`”里面的公钥。
         Titel : xxxx
         Key   : (将 cat ~/id_rsa.pub 出的值，复制到此处)
+
+***---
 
 Repositories Add
 ----------------
@@ -41,4 +46,6 @@ Repositories Add
 
     三、将改动提交到远程仓库中
 
->    git push /
+>    git push
+
+![banner pic](/public/images/banner.jpg "banner pic")
