@@ -19,14 +19,17 @@
 >
 >最后得到了两个文件： id_rsa 和id_rsa.pub
 
-        Your identification has been saved in /home/tekkub/.ssh/id_rsa.
-        Your public key has been saved in /home/tekkub/.ssh/id_rsa.pub.
-        The key fingerprint is:
-        ………………
-
+    ```
+Your identification has been saved in /home/tekkub/.ssh/id_rsa.
+Your public key has been saved in /home/tekkub/.ssh/id_rsa.pub.
+The key fingerprint is:
+………………
+    ```
 3. 在github上添加ssh密钥，这要添加的是“`id_rsa.pub`”里面的公钥。
-        Titel : xxxx
-        Key   : (将 cat ~/id_rsa.pub 出的值，复制到此处)
+    ```
+Titel : xxxx
+Key   : (将 cat ~/id_rsa.pub 出的值，复制到此处)
+        ```
 
 ***---
 
