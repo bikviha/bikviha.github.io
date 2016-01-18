@@ -33,7 +33,7 @@ Titel : xxxx
 Key   : (将 cat ~/id_rsa.pub 出的值，复制到此处)
     ```
 
-***---
+---
 
 Repositories Add
 ----------------
