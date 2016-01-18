@@ -31,7 +31,7 @@ The key fingerprint is:
     ```
 Titel : xxxx
 Key   : (将 cat ~/id_rsa.pub 出的值，复制到此处)
-        ```
+    ```
 
 ***---
 
