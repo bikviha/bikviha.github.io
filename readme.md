@@ -25,7 +25,9 @@ Your public key has been saved in /home/tekkub/.ssh/id_rsa.pub.
 The key fingerprint is:
 ………………
     ```
+
 3. 在github上添加ssh密钥，这要添加的是“`id_rsa.pub`”里面的公钥。
+
     ```
 Titel : xxxx
 Key   : (将 cat ~/id_rsa.pub 出的值，复制到此处)
@@ -50,5 +52,6 @@ Repositories Add
     三、将改动提交到远程仓库中
 
 >    git push
+
 
 ![banner pic](/public/images/banner.jpg "banner pic")
