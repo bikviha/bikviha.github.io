@@ -1,1 +1,4 @@
-1111
+git 如何还原某个文件
+$ git checkout ${commit} /path/to/file
+来源参考：https://segmentfault.com/q/1010000002464973
+         http://www.lxway.com/
