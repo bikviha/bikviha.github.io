@@ -6,21 +6,18 @@
 >lsb_release -a
 
     ubuntu 系统更新
->sudo apt-get update
+>sudo apt-get update<br/>
+>sudo apt-get upgrade<br/>
+>sudo apt-get dist-upgrade
 
     查看当前服务和监听端口
 >netstat
 
->-a ：all，表示列出所有的连接，服务监听，Socket资料
-
->-t ：tcp，列出tcp协议的服务
-
->-u ：udp，列出udp协议的服务
-
->-n ：port number， 用端口号来显示
-
->-l ：listening，列出当前监听服务
-
+>-a ：all，表示列出所有的连接，服务监听，Socket资料<br/>
+>-t ：tcp，列出tcp协议的服务<br/>
+>-u ：udp，列出udp协议的服务<br/>
+>-n ：port number， 用端口号来显示<br/>
+>-l ：listening，列出当前监听服务<br/>
 >-p ：program，列出服务程序的PID
 
     查看当前有哪些进程
@@ -36,18 +33,17 @@
 >tail -n 6 xxx
 
     下载网站文档
->wget -r -p -np -k
-
->r：在本机建立服务器端目录结构；
-
->-p: 下载显示HTML文件的所有图片；
-
->-np：只下载目标站点指定目录及其子目录的内容；
-
->-k: 转换非相对链接为相对链接。
+>wget -r -p -np -k<br/>
+>-r：在本机建立服务器端目录结构；<br/>
+>-p: 下载显示HTML文件的所有图片；<br/>
+>-np：只下载目标站点指定目录及其子目录的内容；<br/>
+>-k: 转换非相对链接为相对链接。<br/>
 
     查看已经安装了哪些包
 >dpkg -l
+
+
+    参考网址：http://www.jb51.net/os/Ubuntu/56362.html
 
 ```C
 #include <stdio.h>
